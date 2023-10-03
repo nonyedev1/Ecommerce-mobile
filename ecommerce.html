@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet"  href="mobile.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+  <nav class="navbar">
+    <div class="menuList hide">
+  
+    <ul>
+      
+    <img src="icon-close.svg" class="menu bottomSpace biggerIcon hide">
+   
+   <li><a href="Collection">Collection</a></li>
+      <li><a href="Men">Men</a></li>
+    <li><a href="Women">Women</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="Contact">Contact</a></li>
+    </ul>
+    </div>
+    <div class="menuCarrier">
+       <img src="icon-menu.svg" class="menu">
+        </div>
+        <h1>Sneakers</h1>
+        <div class="cartAndImage">
+          <div>
+          <sup class="inputDisplay hide"></sup>
+        <img src="icon-cart.svg" id="cart">
+      
+        </div>
+    <img src="image-avatar.png" id="profileImage">
+    </div>
+  </nav>
+  <section>
+    <div class="imagess">
+      <div class="previous">
+     <img src="icon-previous.svg" id="previous">
+      </div>
+    <div class="imageOne">
+      <img src="/images/image1.jpg"  alt="image1.jpg">
+      
+    <div class="checkOutContainerEmpty hide">
+      <div class="cartP">
+      <p>Cart</p>
+      </div>
+      <hr>
+      <div class="cartContainerEmpty">
+        <p>Your cart is empty.</p>
+      </div>
+      </div>
+         <div class="checkOutContainerFilled hide">
+      <div class="cartP">
+      <p>Cart</p>
+      </div>
+      <hr>
+      <div class="cartContainerFilled">
+        <div class="productImage">
+        <img src="image1thumbnail.jpg">
+        </div>
+        <div class="productDetails">
+        <div class="productNameDelete">
+      <p>Fall Limited Edition sneakers</p>
+      <div class="deleteItem">
+        <img src="icon-delete.svg" id="deleteItem">
+        </div>
+        </div>
+        <div class="productPriceContainer">
+          <p id="productPrice">$125.00 <span id="multiplier">x</span> <span id="quantity">3</span><span id="totalPrice">$375.00</span> </p>
+        </div>
+      </div>
+        
+
+        </div>
+        <div class="checkOut">
+          <button type="submit" id="checkOut">Checkout</button>
+        </div>
+      
+         
+    
+    </div>
+    </div>
+    <div class="next">
+    <img src="icon-next.svg" id="next">
+    </div>
+    </div>
+    <div class="writeUp">
+      <h3>SNEAKER COMPANY</h3>
+      <h1>
+        Fall Limited Edition <br>
+        Sneakers
+      </h1>
+      <p> These low profile sneakers
+      are your perfect casual wear companion. Featuring a durable
+      rubber outer sole, they'll withstand everything the weather can offer.</p>
+      
+    </div>
+    <div class="discountSection">
+      <strong><h2>$125.00 </h2></strong>
+      <p class="orangeText">50%</p>
+      <strike>$250.00</strike>
+    </div>
+    <div class="quantityAdder">
+      <h4 class="orangeText"id="minus">-</h4>
+      <h4 class="defaultQuantity">0</h4>
+      <h4 class="orangeText" id="plus">+</>
+    </div>
+    <div class="errorMessage hide">
+      <p>*There is nothing in the cart</p>
+    </div>
+    <div class="btn"  >
+    <button type="submit" id="addToCart"><img src="icon-cart.svg" alt=""> <strong>Add to cart </strong></button>
+    </div>
+  </section>
+</div>
+  
+<script src="ecommerce.js"></script>
+</body>
+
+</html>
